@@ -11,7 +11,7 @@ front end will be running on port 3000:
 
 Back end will be running on port 5001:
 
-run the gorilla.py file 
+1. run the gorilla.py file 
 
 After the project starts:
 
