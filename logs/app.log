@@ -1,0 +1,599 @@
+2024-11-03 19:06:09,619 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:296]
+2024-11-03 19:06:18,356 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:188]
+2024-11-03 19:06:18,359 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:189]
+2024-11-03 19:06:18,620 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Content-Length: 108
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:188]
+2024-11-03 19:06:18,631 INFO: Body: b'{"prompt":"Create a blue circle in the center and add text saying Hello above it","timestamp":1730678778045}' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:189]
+2024-11-03 19:06:18,631 INFO: Processing prompt: Create a blue circle in the center and add text saying Hello above it [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:222]
+2024-11-03 19:06:23,371 INFO: Received response from Gorilla API [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:236]
+2024-11-03 19:06:23,372 ERROR: Unexpected error parsing function call: the JSON object must be str, bytes or bytearray, not OpenAIObject [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:172]
+2024-11-03 19:06:23,372 ERROR: Unexpected error parsing function call: the JSON object must be str, bytes or bytearray, not OpenAIObject [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:172]
+2024-11-03 19:06:23,372 WARNING: No valid canvas elements generated [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:243]
+2024-11-03 19:08:33,813 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:311]
+2024-11-03 19:08:45,333 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:08:45,335 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:08:45,594 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Content-Length: 108
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:08:45,595 INFO: Body: b'{"prompt":"Create a blue circle in the center and add text saying Hello above it","timestamp":1730678925025}' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:08:45,597 INFO: Processing prompt: Create a blue circle in the center and add text saying Hello above it [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:236]
+2024-11-03 19:08:50,842 INFO: Raw Gorilla response: {
+  "index": 0,
+  "message": {
+    "role": "assistant",
+    "content": "create_canvas_element(type='shape', content='circle', position={'x': 50, 'y': 50}, dimensions={'width': 100, 'height': 100}, style={'fill': 'blue'}), create_canvas_element(type='text', content='Hello', position={'x': 50, 'y': 50}, style={'fill': 'black', 'font': 'Arial'})",
+    "function_call": [
+      {
+        "name": "create_canvas_element",
+        "arguments": {
+          "type": "shape",
+          "content": "circle",
+          "position": {
+            "x": 50,
+            "y": 50
+          },
+          "dimensions": {
+            "width": 100,
+            "height": 100
+          },
+          "style": {
+            "fill": "blue"
+          }
+        }
+      },
+      {
+        "name": "create_canvas_element",
+        "arguments": {
+          "type": "text",
+          "content": "Hello",
+          "position": {
+            "x": 50,
+            "y": 50
+          },
+          "style": {
+            "fill": "black",
+            "font": "Arial"
+          }
+        }
+      }
+    ]
+  },
+  "finish_reason": "stop"
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:251]
+2024-11-03 19:08:50,854 INFO: Raw function calls: [<OpenAIObject at 0x25dc9899f40> JSON: {
+  "name": "create_canvas_element",
+  "arguments": {
+    "type": "shape",
+    "content": "circle",
+    "position": {
+      "x": 50,
+      "y": 50
+    },
+    "dimensions": {
+      "width": 100,
+      "height": 100
+    },
+    "style": {
+      "fill": "blue"
+    }
+  }
+}, <OpenAIObject at 0x25dc989a030> JSON: {
+  "name": "create_canvas_element",
+  "arguments": {
+    "type": "text",
+    "content": "Hello",
+    "position": {
+      "x": 50,
+      "y": 50
+    },
+    "style": {
+      "fill": "black",
+      "font": "Arial"
+    }
+  }
+}] [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:136]
+2024-11-03 19:08:50,856 INFO: Processing arguments: {
+  "type": "shape",
+  "content": "circle",
+  "position": {
+    "x": 50,
+    "y": 50
+  },
+  "dimensions": {
+    "width": 100,
+    "height": 100
+  },
+  "style": {
+    "fill": "blue"
+  }
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:146]
+2024-11-03 19:08:50,857 ERROR: Unexpected error parsing function call: the JSON object must be str, bytes or bytearray, not OpenAIObject [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:182]
+Traceback (most recent call last):
+  File "C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py", line 147, in parse_gorilla_response
+    args = json.loads(args_str)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\azhar\anaconda3\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not OpenAIObject
+2024-11-03 19:08:50,866 INFO: Processing arguments: {
+  "type": "text",
+  "content": "Hello",
+  "position": {
+    "x": 50,
+    "y": 50
+  },
+  "style": {
+    "fill": "black",
+    "font": "Arial"
+  }
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:146]
+2024-11-03 19:08:50,869 ERROR: Unexpected error parsing function call: the JSON object must be str, bytes or bytearray, not OpenAIObject [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:182]
+Traceback (most recent call last):
+  File "C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py", line 147, in parse_gorilla_response
+    args = json.loads(args_str)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\azhar\anaconda3\Lib\json\__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not OpenAIObject
+2024-11-03 19:08:50,870 WARNING: No valid canvas elements generated [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:258]
+2024-11-03 19:10:42,402 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:10:45,531 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:10:45,533 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:10:45,797 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Content-Length: 108
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:10:45,799 INFO: Body: b'{"prompt":"Create a blue circle in the center and add text saying Hello above it","timestamp":1730679045226}' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:10:45,800 INFO: Processing prompt: Create a blue circle in the center and add text saying Hello above it [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:234]
+2024-11-03 19:10:50,121 INFO: Raw Gorilla response: {
+  "index": 0,
+  "message": {
+    "role": "assistant",
+    "content": "create_canvas_element(type='shape', content='circle', position={'x': 50, 'y': 50}, dimensions={'width': 100, 'height': 100}, style={'fill': 'blue'}), create_canvas_element(type='text', content='Hello', position={'x': 50, 'y': 50}, style={'fill': 'black', 'font': 'Arial'})",
+    "function_call": [
+      {
+        "name": "create_canvas_element",
+        "arguments": {
+          "type": "shape",
+          "content": "circle",
+          "position": {
+            "x": 50,
+            "y": 50
+          },
+          "dimensions": {
+            "width": 100,
+            "height": 100
+          },
+          "style": {
+            "fill": "blue"
+          }
+        }
+      },
+      {
+        "name": "create_canvas_element",
+        "arguments": {
+          "type": "text",
+          "content": "Hello",
+          "position": {
+            "x": 50,
+            "y": 50
+          },
+          "style": {
+            "fill": "black",
+            "font": "Arial"
+          }
+        }
+      }
+    ]
+  },
+  "finish_reason": "stop"
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:247]
+2024-11-03 19:10:50,124 INFO: Processing 2 function calls [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:136]
+2024-11-03 19:10:50,124 INFO: Processing arguments: {
+  "type": "shape",
+  "content": "circle",
+  "position": {
+    "x": 50,
+    "y": 50
+  },
+  "dimensions": {
+    "width": 100,
+    "height": 100
+  },
+  "style": {
+    "fill": "blue"
+  }
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:149]
+2024-11-03 19:10:50,125 INFO: Successfully created canvas element: CanvasData(type='shape', content='circle', position=Position(x=50, y=50), style=Style(fill='blue', font=None), dimensions=Dimensions(width=100, height=100)) [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:176]
+2024-11-03 19:10:50,126 INFO: Processing arguments: {
+  "type": "text",
+  "content": "Hello",
+  "position": {
+    "x": 50,
+    "y": 50
+  },
+  "style": {
+    "fill": "black",
+    "font": "Arial"
+  }
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:149]
+2024-11-03 19:10:50,126 INFO: Successfully created canvas element: CanvasData(type='text', content='Hello', position=Position(x=50, y=50), style=Style(fill='black', font='Arial'), dimensions=None) [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:176]
+2024-11-03 19:10:50,127 INFO: Successfully generated 2 canvas elements [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:267]
+2024-11-03 19:11:15,247 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:11:15,249 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:11:15,559 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Content-Length: 111
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:11:15,560 INFO: Body: b'{"prompt":"Create a green circle in the center and add text saying Madhuri below it","timestamp":1730679075245}' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:11:15,561 INFO: Processing prompt: Create a green circle in the center and add text saying Madhuri below it [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:234]
+2024-11-03 19:11:20,073 INFO: Raw Gorilla response: {
+  "index": 0,
+  "message": {
+    "role": "assistant",
+    "content": "create_canvas_element(type='shape', content='circle', position={'x': 50, 'y': 50}, dimensions={'width': 100, 'height': 100}, style={'fill': 'green'}), create_canvas_element(type='text', content='Madhuri', position={'x': 50, 'y': 150}, style={'fill': 'black', 'font': 'Arial'})",
+    "function_call": [
+      {
+        "name": "create_canvas_element",
+        "arguments": {
+          "type": "shape",
+          "content": "circle",
+          "position": {
+            "x": 50,
+            "y": 50
+          },
+          "dimensions": {
+            "width": 100,
+            "height": 100
+          },
+          "style": {
+            "fill": "green"
+          }
+        }
+      },
+      {
+        "name": "create_canvas_element",
+        "arguments": {
+          "type": "text",
+          "content": "Madhuri",
+          "position": {
+            "x": 50,
+            "y": 150
+          },
+          "style": {
+            "fill": "black",
+            "font": "Arial"
+          }
+        }
+      }
+    ]
+  },
+  "finish_reason": "stop"
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:247]
+2024-11-03 19:11:20,077 INFO: Processing 2 function calls [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:136]
+2024-11-03 19:11:20,077 INFO: Processing arguments: {
+  "type": "shape",
+  "content": "circle",
+  "position": {
+    "x": 50,
+    "y": 50
+  },
+  "dimensions": {
+    "width": 100,
+    "height": 100
+  },
+  "style": {
+    "fill": "green"
+  }
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:149]
+2024-11-03 19:11:20,078 INFO: Successfully created canvas element: CanvasData(type='shape', content='circle', position=Position(x=50, y=50), style=Style(fill='green', font=None), dimensions=Dimensions(width=100, height=100)) [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:176]
+2024-11-03 19:11:20,079 INFO: Processing arguments: {
+  "type": "text",
+  "content": "Madhuri",
+  "position": {
+    "x": 50,
+    "y": 150
+  },
+  "style": {
+    "fill": "black",
+    "font": "Arial"
+  }
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:149]
+2024-11-03 19:11:20,079 INFO: Successfully created canvas element: CanvasData(type='text', content='Madhuri', position=Position(x=50, y=150), style=Style(fill='black', font='Arial'), dimensions=None) [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:176]
+2024-11-03 19:11:20,080 INFO: Successfully generated 2 canvas elements [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:267]
+2024-11-03 19:26:04,364 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:26:04,365 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:26:04,628 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Content-Length: 64
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Ch-Ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Accept: */*
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:26:04,629 INFO: Body: b'{"prompt":"Show me monthly sales data for 2023 as a line chart"}' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:26:04,629 INFO: Processing prompt: Show me monthly sales data for 2023 as a line chart [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:234]
+2024-11-03 19:26:20,237 INFO: Raw Gorilla response: {
+  "index": 0,
+  "message": {
+    "role": "assistant",
+    "content": "Error, not enough information provided. The user's question involves displaying monthly sales data for the year 2023 as a line chart. To resolve this, we need to analyze the provided functions and their parameters to determine if they are suitable for this task. \n\n User's Intent: \n The user intends to visualize sales data in a line chart format for the year 2023. This involves creating a chart that represents the sales data over a period of time, which is typically a line chart. \n\n Intended Function: \n The `create_line_chart` function seems to be the intended function for creating a line chart. This function is designed to create a line chart based on provided data and options. \n\n Function Parameters Analysis for `create_line_chart`: \n data: A list of data points for the chart. The user needs to provide the sales data for each month of 2023. \n options: An object containing chart options. The user needs to specify the chart type, which is a line chart in this case. \n\n Issues and Detailed Reasoning: \n The user has not provided the actual sales data for each month of 2023. The `create_line_chart` function requires a list of data points, and the user needs to specify the sales figures for each month. Without this information, the function cannot be called successfully. \n\n Conclusion: \n The question cannot be resolved with the provided information because the user has not specified the sales data for each month of 2023. The user needs to provide the sales data as a list of numbers or as a list of objects with `month` and `sales` properties. Without this data, the `create_line_chart` function cannot be called, and the line chart cannot be created.",
+    "function_call": null
+  },
+  "finish_reason": "stop"
+} [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:247]
+2024-11-03 19:26:20,240 WARNING: No function calls in response [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:251]
+2024-11-03 19:26:26,737 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:26:26,739 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:26:29,788 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:26:29,789 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:26:42,302 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:26:43,650 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:26:50,360 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:26:50,361 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:27:13,694 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:27:13,695 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:28:01,832 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:28:01,834 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:28:32,311 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:28:36,667 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:28:36,669 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:28:40,950 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:28:40,952 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
+2024-11-03 19:29:21,596 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:29:23,005 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:32:01,004 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:32:02,351 INFO: Starting Flask application... [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:313]
+2024-11-03 19:32:25,477 INFO: Headers: Host: localhost:5000
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+ [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:202]
+2024-11-03 19:32:25,479 INFO: Body: b'' [in C:\Users\azhar\Downloads\sb1-fiuv9v\gorilla.py:203]
